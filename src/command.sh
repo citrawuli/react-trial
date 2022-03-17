@@ -1,4 +1,4 @@
-# REPO_URL <github_url>
+# REPO_URL <https://github.com/citrawuli/react-trial>
 
 
 # 1. Create react app using the create-react-app tool https://github.com/facebook/create-react-app#quick-overview
@@ -47,7 +47,11 @@ gh pr checkout branch-update-logo
 gh pr merge
 
 # 9. List all commands you used in steps 1-8 on “command.sh” file
-
+# add in vscode
+git add *
+git status
+git commit -m "add command.sh"
+git push -u origin main
 
 
 
